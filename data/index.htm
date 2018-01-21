@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>test</title>
+
+</head>
+<body>
+	<h1>Test side</h1>
+		<form method="post" action="/brightness">
+		<label>Brightness <input type="number" name="value" min="0" max="255" value="255"/></label><br />
+		<input type="submit">
+	</form>
+	<form method="post" action="/color">
+		<label>R <input type="number" name="r" min="0" max="255" value="255"/></label><br />
+		<label>G <input type="number" name="g" min="0" max="255" value="255"/></label><br />
+		<label>B <input type="number" name="b" min="0" max="255" value="255"/></label><br /> 
+		<input type="submit">
+	</form> 
+		<form method="post" action="/save">
+		
+		<input type="submit" value="save settings" />
+	</form> 
+</html>
